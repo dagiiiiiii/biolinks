@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #e1e1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+
+}
+
+span{
+    color: #e1e1f1;
+}
+
+.profilephoto{
+    width: 10rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Sosmed i {
+    font-size: 1.5rem;
+    color: #B3B3B3;
+    padding: 0.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+
+}
+.Sosmed i:hover{
+    background-color: rgba(225, 225, 241, 0.1);
+}
+
+.Sosmed a:not(:last-child){
+    margin-right: 1rem;
+}
+
+ul{
+    width: 80%;
+    max-width: 40rem;
+}
+ul li {
+    list-style: none;
+}
+
+.card li:not(:last-child){
+    margin-bottom: 1rem;
+}
+.card{
+    margin-top: 1rem;
+}
+
+.link-icon{
+    padding: 0.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #010101;
+    padding: 1rem;
+    border-radius: 20px;
+    
+}
+
+.link-card:hover{
+    background-color: rgba(1, 1, 1, 0.9);
+}
+
+.link-action{
+    cursor: pointer;
+    padding: 0.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+}
+
+.footer .cp{
+    display: flex;
+    align-items: center;
+}
