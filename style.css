@@ -47,10 +47,12 @@ a{
     padding: 0.5rem;
     aspect-ratio: 1/1;
     border-radius: 20px;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
 
 }
 .Sosmed i:hover{
     background-color: rgba(225, 225, 241, 0.1);
+    font-size: 1.8rem;
 }
 
 .Sosmed a:not(:last-child){
@@ -86,14 +88,15 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #010101;
+    background-color: rgba(38, 38, 38, 0.3);
     padding: 1rem;
     border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    }
     
-}
-
-.link-card:hover{
-    background-color: rgba(1, 1, 1, 0.9);
+    .link-card:hover{
+        background-color: rgba(80, 80, 80, 1);
+        transform: scale(1.05);
 }
 
 .link-action{
@@ -110,4 +113,6 @@ ul li {
 .footer .cp{
     display: flex;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
