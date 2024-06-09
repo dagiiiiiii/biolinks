@@ -32,11 +32,8 @@ const typed2 =  new Typed('.footerm',{
     loop:true
 });
 
-// vidio tengah
-window.addEventListener('resize', function() {
-    var video = document.getElementById('bg-video');
-    var viewportWidth = window.innerWidth;
-    var videoWidth = video.clientWidth;
-    var offset = (videoWidth - viewportWidth) / 2;
-    video.style.left = -offset + 'px';
-});
+//video
+
+
+
+
