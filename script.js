@@ -24,6 +24,13 @@ const typed =  new Typed('.multiple-text',{
     backDelay: 1000,
     loop:true
 });
+const typed2 =  new Typed('.footerm',{
+    strings:['@dagisukakamu','wanjay','otw ganti username dagisukangoding','owakoakwokaw'],
+    typeSpeed: 40,
+    backSpeed: 10,
+    backDelay: 1000,
+    loop:true
+});
 
 // vidio tengah
 window.addEventListener('resize', function() {
